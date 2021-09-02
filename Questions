@@ -105,4 +105,9 @@ a will always be non-zero.
 -----------------------------------------------------------------------------
 Question 10:
 
+Shift all positive numbers to left and all negative numbers to right of an integer array. Test cases are given below:
+arr=[1,-2,-3,5,6] --> [1,5,6,-2,-3]
+arr=[-7,11,-6,-5,0] --> [11,0,-7,-6,-5]
 
+Note that: the sequence of an array remains same as it is.
+-----------------------------------------------------------------------------
