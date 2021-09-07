@@ -110,4 +110,63 @@ arr=[1,-2,-3,5,6] --> [1,5,6,-2,-3]
 arr=[-7,11,-6,-5,0] --> [11,0,-7,-6,-5]
 
 Note that: the sequence of an array remains same as it is.
+
 -----------------------------------------------------------------------------
+Question 11:
+
+Description:
+Given an array of integers, find the one that appears an odd number of times.
+
+There will always be only one integer that appears an odd number of times.
+
+Examples
+[7] should return 7, because it occurs 1 time (which is odd).
+[0] should return 0, because it occurs 1 time (which is odd).
+[1,1,2] should return 2, because it occurs 1 time (which is odd).
+[0,1,0,1,0] should return 0, because it occurs 3 times (which is odd).
+[1,2,2,3,3,3,4,3,3,3,2,2,1] shold return 4, because it appears 1 time (which is odd).
+
+-----------------------------------------------------------------------------
+Question 12:
+
+Write a function
+TripleDouble(long num1, long num2)
+which takes numbers num1 and num2 and returns 1 if there is a straight triple of a number at any place in num1 and also a straight double of the same number in num2.
+
+If this isn't the case, return 0
+
+Examples
+TripleDouble(451999277, 41177722899) == 1 // num1 has straight triple 999s and 
+                                          // num2 has straight double 99s
+
+TripleDouble(1222345, 12345) == 0 // num1 has straight triple 2s but num2 has only a single 2
+
+TripleDouble(12345, 12345) == 0
+
+TripleDouble(666789, 12345667) == 1
+
+-----------------------------------------------------------------------------
+Question 13:
+Move the first letter of each word to the end of it, then add "ay" to the end of the word. Leave punctuation marks untouched.
+Examples
+
+pigIt('Pig latin is cool'); // igPay atinlay siay oolcay
+pigIt('Hello world !');     // elloHay orldway !
+
+-----------------------------------------------------------------------------
+Question 14:
+Write a function that accepts a string, and returns true if it is in the form of a phone number.
+Assume that any integer from 0-9 in any of the spots will produce a valid phone number.
+
+Only worry about the following format:
+(123) 456-7890 (don't forget the space after the close parentheses)
+
+Examples:
+
+"(123) 456-7890"  => true
+"(1111)555 2345"  => false
+"(098) 123 4567"  => false
+
+-----------------------------------------------------------------------------
+Question 15:
+
